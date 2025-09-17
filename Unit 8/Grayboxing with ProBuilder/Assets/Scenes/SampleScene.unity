@@ -35720,7 +35720,7 @@ GameObject:
   - component: {fileID: 1118121026}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36763,6 +36763,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a48fde334d1160e4e8ac06641f99394d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
+  offset: {x: -25, y: 0, z: 0}
   tracerPrefab: {fileID: 4230346438416302098, guid: e61b02d09b078b84caa832f9c157a247, type: 3}
   layerMask:
     serializedVersion: 2
