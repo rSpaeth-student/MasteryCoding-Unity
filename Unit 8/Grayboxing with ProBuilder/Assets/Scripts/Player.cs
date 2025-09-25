@@ -106,7 +106,7 @@ public class Player : MonoBehaviour
         monsters[0].gameObject.SetActive(true);
         //change monster transform to players offset transform
         monsters[0].gameObject.transform.position = playerTransform.position + offset;
-        
+        monsters[0].gameObject.transform.rotation = playerTransform.rotation;
 
        // monsters[0].gameObject.SetActive(true);
 
