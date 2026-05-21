@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e4a4b61ee02eb1459cfe9843526ec93, type: 3}
+  m_Name: Attack
+  m_EditorClassIdentifier: Assembly-CSharp::Card_SO
+  cardName: Attack
+  cardDescription: Deals 1 damage to target.
+  manaCost: 1
+  cardImage: {fileID: 712035800519618848, guid: 0206d98e1859c6c43aa02a147f7814c2, type: 3}
+  cardEffects:
+  - strength: -1
+    targetType: 1
+    effectType: 0
+    FXPrefab: {fileID: 194062, guid: 8c27aeead6d968e4ba986702d6b84335, type: 3}
+    cameraShake: {x: 0.1, y: 0.1}
